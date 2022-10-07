@@ -1,0 +1,83 @@
+@use 'base/variables' as v; 
+@use 'base/mixins' as m;
+
+.footer {
+    margin-bottom: 2rem;
+    margin-top: 4rem;
+
+    &__grid {
+        @include m.tablet { 
+            @include m.grid(3, 2rem);
+        }
+    }
+
+    &__widget {
+        text-align: center;
+
+        &:nth-child(3) {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+
+    &__heading {
+        @include m.heading2;
+        font-size: 3.4rem;
+    }
+
+    &__text {
+        line-height: 1.8;
+    }
+
+}
+
+.myFooter {
+    margin-top: 6rem;
+
+    &__terms{
+        text-align: center;
+        color: v.$primary;
+        font-weight: 700;
+        font-size: 2.3rem;
+    }
+}
+
+.firma {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    &__year {
+        color: v.$primary;
+        margin: 0 .5rem;
+    }
+
+    &__name {
+        font-weight: 900;
+        font-size: 2rem;
+        color: v.$primary;
+    }
+
+}
+
+.logs {
+    border-top: solid v.$primary;
+    padding: 3rem 0 0 0;
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: center;
+
+    &__image {
+        width: 6rem;
+        margin: 0 3rem;
+        transition-property: transform background-size;
+        transition-duration: 1s;
+
+        &:hover {
+            transform: scale(1.4);
+        }
+    }
+}

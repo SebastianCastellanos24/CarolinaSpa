@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carolina Spa</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Italianno&family=Lato:wght@400;700;900&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="build/css/app.css">
+</head>
+<body>
+    <header class="header box">
+        <div class="header__grid">
+            <div class="header__log">
+                <img src="build/img/logo.svg" alt="Web log">
+            </div>
+            
+            <nav class="socials">
+                <a class="socials__link" href="https://facebook.com"> <span class="socials__name">Facebook</span></a>
+                <a class="socials__link" href="https://twitter.com"> <span class="socials__name">Twitter</span></a>
+                <a class="socials__link" href="https://instagram.com"> <span class="socials__name">Instagram</span></a>
+                <a class="socials__link" href="https://youtube.com"> <span class="socials__name">YouTube</span></a>
+                <a class="socials__link" href="https://pinterest.com"> <span class="socials__name">Pinterest</span></a>
+            </nav>
+
+        </div>
+    </header>
+
+    <div class="navegation">
+        <div class="navegation__border">
+            <nav class="navegation__box">
+                <a class="navegation__link" href="#">Home</a>
+                <a class="navegation__link" href="#">About Us</a>
+                <a class="navegation__link" href="#">Services</a>
+                <a class="navegation__link" href="#">Products</a>
+                <a class="navegation__link" href="#">Contact Us</a>
+            </nav>
+        </div>    
+    </div>
+
+    <section class="slider box">
+        <ul class="slider__box">
+            <li class="slider__slide">
+                <picture>
+                    <source srcset="build/img/slide_01.avif" type="image/avif">
+                    <source srcset="build/img/slide_01.webp" type="image/webp">
+                    <img class="slider__image" loading="lazy" src="build/img/slide_01.jpg" alt="slide image">
+                </picture>
+            </li>
+
+            <li class="slider__slide">
+                <picture>
+                    <source srcset="build/img/slide_02.avif" type="image/avif">
+                    <source srcset="build/img/slide_02.webp" type="image/webp">
+                    <img class="slider__image" loading="lazy" src="build/img/slide_02.jpg" alt="slide image">
+                </picture>
+            </li>
+
+            <li class="slider__slide">
+                <picture>
+                    <source srcset="build/img/slide_03.avif" type="image/avif">
+                    <source srcset="build/img/slide_03.webp" type="image/webp">
+                    <img class="slider__image" loading="lazy" src="build/img/slide_03.jpg" alt="slide image">
+                </picture>
+            </li>
+        </ul>
+    </section>
+
+    <section class="welcome section">
+        <h1 class="welcome__heading">Welcome to our <span>Web site</span></h1>
+        <p class="welcome__text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    </section>
+
+    <section class="cards">
+        <div class="cards__grid box">
+
+            <div class="card">
+                <picture>
+                    <source srcset="build/img/servicio_01.avif" type="image/avif">
+                    <source srcset="build/img/servicio_01.webp" type="image/webp">
+                    <img class="card__image" loading="lazy" src="build/img/servicio_01.jpg" alt="card image">
+                </picture>
+                <div class="card__content">
+                    <h2 class="card__heading">Know<span>About Us</span></h2>
+                    <a class="card__link" href="#">More Info</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <picture>
+                    <source srcset="build/img/servicio_02.avif" type="image/avif">
+                    <source srcset="build/img/servicio_02.webp" type="image/webp">
+                    <img class="card__image" loading="lazy" src="build/img/servicio_02.jpg" alt="card image">
+                </picture>
+                <div class="card__content">
+                    <h2 class="card__heading">Our<span>Services</span></h2>
+                    <a class="card__link" href="#">More Info</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <picture>
+                    <source srcset="build/img/servicio_03.avif" type="image/avif">
+                    <source srcset="build/img/servicio_03.webp" type="image/webp">
+                    <img class="card__image" loading="lazy" src="build/img/servicio_03.jpg" alt="card image">
+                </picture>
+                <div class="card__content">
+                    <h2 class="card__heading">Look<span>Our Store</span></h2>
+                    <a class="card__link" href="#">More Info</a>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="schedule">
+        <div class="schedule__grid box">
+            <div class="schedule__content">
+                <h3 class="schedule__heading">Schedules</h3>
+                <p class="schedule__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim id deserunt a repudiandae labore aspernatur.</p>
+
+                <table class="table">
+                    <thead class="table__thead">
+                        <tr>
+                            <th class="table__th">Day</th>
+                            <th class="table__th">Open</th>
+                            <th class="table__th">Close</th>
+                        </tr>
+                    </thead>
+                
+
+                    <tbody class="table__tbody">
+
+                        <tr class="table__tr">
+                            <td class="table__td">Monday</td>
+                            <td class="table__td">09:00</td> 
+                            <td class="table__td">19:00</td>  
+                        </tr>
+
+                        <tr class="table__tr">
+                            <td class="table__td">Tuesday</td>
+                            <td class="table__td">09:00</td> 
+                            <td class="table__td">19:00</td>  
+                        </tr>
+
+                        <tr class="table__tr">
+                            <td class="table__td">Wednesday</td>
+                            <td class="table__td">09:00</td> 
+                            <td class="table__td">19:00</td>  
+                        </tr>
+
+                        <tr class="table__tr">
+                            <td class="table__td">Thursday</td>
+                            <td class="table__td">09:00</td> 
+                            <td class="table__td">19:00</td>  
+                        </tr>
+
+                        <tr class="table__tr">
+                            <td class="table__td">Friday</td>
+                            <td class="table__td">09:00</td> 
+                            <td class="table__td">19:00</td>  
+                        </tr>
+
+                        <tr class="table__tr">
+                            <td class="table__td">Saturday</td>
+                            <td class="table__td">09:00</td> 
+                            <td class="table__td">19:00</td>  
+                        </tr>
+
+                        <tr class="table__tr">
+                            <td class="table__td">Sunday</td>
+                            <td class="table__td" colspan="2">Close</td> 
+                        </tr>
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <main class="products box section">
+        <h2 class="products__heading">Our <span>Products</span></h2>
+
+        <div class="products__grid">
+            
+            <div class="product">
+                <div class="product__mask">
+                    <picture>
+                        <source srcset="build/img/producto_01.avif" type="image/avif">
+                        <source srcset="build/img/producto_01.webp" type="image/webp">
+                        <img class="product__image" loading="lazy" src="build/img/producto_01.jpg" alt="A product image">
+                    </picture>
+                </div>
+                <div class="product__content">
+                    <h2 class="product__name">Product 1</h2>
+                    <p class="product__description">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                    <p class="product__price">$ 30</p>
+                </div>
+            </div>
+
+            <div class="product">
+                <div class="product__mask">
+                    <picture>
+                        <source srcset="build/img/producto_02.avif" type="image/avif">
+                        <source srcset="build/img/producto_02.webp" type="image/webp">
+                        <img class="product__image" loading="lazy" src="build/img/producto_02.jpg" alt="A product image">
+                    </picture>
+                </div>
+                <div class="product__content">
+                    <h2 class="product__name">Product 2</h2>
+                    <p class="product__description">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                    <p class="product__price">$ 30</p>
+                </div>
+            </div>
+
+            <div class="product">
+                <div class="product__mask">
+                    <picture>
+                        <source srcset="build/img/producto_03.avif" type="image/avif">
+                        <source srcset="build/img/producto_03.webp" type="image/webp">
+                        <img class="product__image" loading="lazy" src="build/img/producto_03.jpg" alt="A product image">
+                    </picture>
+                </div>
+                <div class="product__content">
+                    <h2 class="product__name">Product 3</h2>
+                    <p class="product__description">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                    <p class="product__price">$ 30</p>
+                </div>
+            </div>
+
+            <div class="product">
+                <div class="product__mask">
+                    <picture>
+                        <source srcset="build/img/producto_04.avif" type="image/avif">
+                        <source srcset="build/img/producto_04.webp" type="image/webp">
+                        <img class="product__image" loading="lazy" src="build/img/producto_04.jpg" alt="A product image">
+                    </picture>
+                </div>
+                <div class="product__content">
+                    <h2 class="product__name">Product 4</h2>
+                    <p class="product__description">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                    <p class="product__price">$ 30</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    <section class="appointment">
+        <h2 class="appointment__heading">Get an appointment</h2>
+        <p class="appointment__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias at aperiam maxime eaque, ducimus modi distinctio? Autem adipisci labore asperiores consequuntur obcaecati, saepe odio nemo sequi? Nulla reiciendis ad quaerat.</p>
+        <a class="appointment__link" href="#">More Info</a>
+    </section>
+
+    <footer class="footer">
+        <div class="footer__grid box">
+            <div class="footer__widget">
+                <h3 class="footer__heading">About Us</h3>
+                <p class="footer__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error minus cum consequatur voluptatem libero mollitia dolore eveniet eius eligendi.</p>
+            </div>
+
+            <div class="footer__widget">
+                <h3 class="footer__heading">Schedules</h3>
+                <p class="footer__text">Mon-Fri: 9AM-7PM</p>
+                <p class="footer__text">Sat: 9AM-2PM</p>
+                <p class="footer__text">Sun: Close</p>
+            </div>
+
+            <div class="footer__widget">
+                <h3 class="footer__heading">Contact Us</h3>
+                <p class="footer__text">Lorem ipsum dolor</p>
+
+                <nav class="socials">
+                    <a class="socials__link" href="https://facebook.com"> <span class="socials__name">Facebook</span></a>
+                    <a class="socials__link" href="https://twitter.com"> <span class="socials__name">Twitter</span></a>
+                    <a class="socials__link" href="https://instagram.com"> <span class="socials__name">Instagram</span></a>
+                    <a class="socials__link" href="https://youtube.com"> <span class="socials__name">YouTube</span></a>
+                    <a class="socials__link" href="https://pinterest.com"> <span class="socials__name">Pinterest</span></a>
+                </nav>
+            </div>
+
+        </div>
+
+        <div class="myFooter">
+            <div class="logs">
+                <a class="logs__image" href="#"><img src="build/img/linkedin-logo.svg" alt="LinkedIn Log"></a>
+                <a class="logs__image" href="#"><img src="build/img/instagram-logo.svg" alt="LinkedIn Log"></a>
+                <a class="logs__image" href="#"><img src="build/img/git-hub-logo.svg" alt="GitHub Log"></a>
+            </div>
+            <p class="myFooter__terms">Terms of Use - Privacy Policy</p>
+            <div class="firma">
+                <p class="firma__year">© 2022</p>
+                <p class="firma__name">Sebastian Castellanos</p>
+            </div>
+            <div class="myFooter__final-line"></div>
+        </div>
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="js/app.js"></script>
+
+</body>
+</html>
